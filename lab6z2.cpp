@@ -7,7 +7,7 @@ int main()
 {
     ofstream out("output.txt", ios::out | ios::binary);
     if (!out) {
-        cout << "Файл открыть невозможно\n";
+        cout << "fail openning the file\n";
         return 1;
     }
     const int N = 10;
