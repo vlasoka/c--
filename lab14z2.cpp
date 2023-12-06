@@ -4,7 +4,7 @@
 using namespace std;
 
 template<class vector>
-void Print(vector t, string sep) {
+void Print(const vector& t, const string& sep) {
 	int s = t.size();
 	for (int i = 0; i < s - 1; i++) {
 		cout << t[i] << sep;
